@@ -2,7 +2,7 @@
 
 if [ "$(id -u)" -eq 0 ]
 then
-        if ping  -c 1 -W 1 google.com
+        if ping  -c 1 -W 1 8.8.8.8
         then
                 while true;
                 do 
